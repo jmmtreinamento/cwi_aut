@@ -1,8 +1,6 @@
 
 class CwiElements{
 
-    /*
-
     botaoEntrar = ()=>{
         return '[type="submit"]';
     }
@@ -17,7 +15,7 @@ class CwiElements{
 
     botaoRecuperarSenha = ()=> {
         return '.login__form__forgot-password';
-    }*/
+    }
 
     inputEmail = ()=>{
         return '[type="email"]';

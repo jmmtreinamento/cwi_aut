@@ -3,7 +3,18 @@ import CwiPage from '../pageobjects/CwiPage';
 
 const cwiPage = new CwiPage;
 
-/*
+Given("acesso ao site CWI", ()=>{
+    cwiPage.acessarSite();
+});
+
+When("eu acessar a pagina de login", ()=>{
+    cwiPage.clicarBotaoPaginaLogin();
+});
+
+And("acessa a pagina de cadastro", ()=>{
+    cwiPage.clicarBotaoCadastreSe();
+});
+
 And("acesso a pagina principal", ()=>{
     cwiPage.loginSucesso();
 });
@@ -30,21 +41,6 @@ Then("realizar login", ()=>{
 
 Then("deve retornar uma mensagem de erro", ()=>{
     cwiPage.receberMensagemDeErro();
-});
-
-
-*/
-
-Given("acesso ao site CWI", ()=>{
-    cwiPage.acessarSite();
-});
-
-When("eu acessar a pagina de login", ()=>{
-    cwiPage.clicarBotaoPaginaLogin();
-});
-
-And("acessa a pagina de cadastro", ()=>{
-    cwiPage.clicarBotaoCadastreSe();
 });
 
 And("informo um email", (email)=>{
@@ -85,7 +81,7 @@ And ("confirmo a senha", ()=>{
 
 When("salvo o cadastro", ()=>{
     cwiPage.cadastroSucesso();
-})
+});
 
 Then("usuario e cadastrado com sucesso", ()=>{
     

@@ -137,6 +137,7 @@ class CwiPage {
         });
     }
 
+    //Salva um cadastro com sucesso
     cadastroSucesso() {
         cy.get(cwiElements.inputPerfilLinkedin()).type(Cypress.config("perfilLinkedin"));
         cy.get(cwiElements.inputNome()).type(Cypress.config("nomeCadastro"));
