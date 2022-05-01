@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "test:edge":"cypress run --browser edge --no-exit"
+    },
+    "cypress-cucumber-preprocessor":{
+        "step_definitions":"cypress/support/steps"
+    }
+}

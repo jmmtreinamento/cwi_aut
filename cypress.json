@@ -1,0 +1,18 @@
+{
+    "viewportWidth": 1366,
+    "viewportHeigth": 768,
+    "defaultCommnadTimeout": 10000,
+    "baseUrl": "https://cwi.com.br",
+    "email": "matheuscostafer159@gmail.com",
+    "senha": "Qwert159#",
+    "usuario": "Matheus",
+    "perfilLinkedin": "https://www.linkedin.com/in/carluardos09000990",
+    "nomeCadastro": "Carlos Eduardo",
+    "sobrenome": "Rodrigo Gabriel Silveira",
+    "cpf": "60454357885",
+    "data_nasc": "01051962",
+    "emailCadastro": "carloseduardosilveira@recantoalmeida.com.br",
+    "cidade": "Ananindeua",
+    "estado": "PA",
+    "celular": "91981623466"
+}
